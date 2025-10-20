@@ -1,0 +1,26 @@
+go 1.23.9
+
+use (
+	./jydata
+	./jylib
+	./jypb
+	./micros/app_user
+	./micros/bp_crontask
+	./micros/gw_carproxy10
+	./micros/gw_carproxy10quic
+	./micros/gw_carproxy7
+	./micros/mock_car
+	./micros/ms_carauth
+	./micros/ms_carcontrol
+	./micros/ms_cardispatch
+	./micros/ms_carflight
+	./micros/ms_carmeasure
+	./micros/ms_carota
+	./micros/ms_filestorage
+	./micros/ms_message
+	./micros/ms_order
+	./micros/ms_parkmap
+	./micros/web_admin
+	./micros/wxmp_ops
+	./micros/wxmp_user
+)
